@@ -109,6 +109,26 @@
     
 
 
+    <!-- https://w3id.org/enigma#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/enigma#hasAge">
+        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Describes the sex of an individual of a cohort.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/enigma#hasSex -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/enigma#hasSex">
+        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Describes the age of an individual of a cohort.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -192,26 +212,8 @@
     <!-- https://w3id.org/enigma#BrainScan -->
 
     <owl:Class rdf:about="https://w3id.org/enigma#BrainScan">
-        <rdfs:comment>An image of an individuals brain collected by ENIGMA.</rdfs:comment>
+        <rdfs:comment>An image of an individual&apos;s brain.</rdfs:comment>
         <rdfs:label>Brain Scan</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/enigma#Gene1 -->
-
-    <owl:Class rdf:about="https://w3id.org/enigma#Gene1">
-        <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#Gene"/>
-        <rdfs:label>Gene 1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/enigma#Gene2 -->
-
-    <owl:Class rdf:about="https://w3id.org/enigma#Gene2">
-        <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#Gene"/>
-        <rdfs:label>Gene 2</rdfs:label>
     </owl:Class>
     
 
@@ -222,16 +224,6 @@
         <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
         <rdfs:comment>The volume of the hippocampus.</rdfs:comment>
         <rdfs:label>Hippocampal Volume</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/enigma#SubstantiaNigraVolume -->
-
-    <owl:Class rdf:about="https://w3id.org/enigma#SubstantiaNigraVolume">
-        <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
-        <rdfs:comment>The volume of the Substantia Nigra.</rdfs:comment>
-        <rdfs:label>Substantia Nigra Volume</rdfs:label>
     </owl:Class>
     
 
@@ -247,73 +239,17 @@
     
 
 
-    <!-- http://disk-project.org/ontology/neuro#CEACAM6 -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#CEACAM6"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#ColonCancer -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#ColonCancer"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#ColonCancerDummySubtype -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#ColonCancerDummySubtype"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#DummyProtein -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#DummyProtein"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#EGFR -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#EGFR"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#HNF4a -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#HNF4a"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#KRAS -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#KRAS"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#NACA2 -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#NACA2"/>
-    
-
-
-    <!-- http://disk-project.org/ontology/neuro#PRKCDBP -->
-
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#PRKCDBP"/>
-    
-
-
     <!-- https://w3id.org/enigma#APOE4 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/enigma#APOE4">
-        <rdf:type rdf:resource="https://w3id.org/enigma#Gene1"/>
+        <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#Gene"/>
     </owl:NamedIndividual>
     
 
 
     <!-- https://w3id.org/enigma#LRRK2 -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#LRRK2">
-        <rdf:type rdf:resource="https://w3id.org/enigma#Gene2"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#LRRK2"/>
     
 
 
