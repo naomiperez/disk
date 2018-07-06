@@ -129,6 +129,7 @@
     <!-- http://disk-project.org/ontology/neuro#BrainCharacteristic -->
 
     <owl:Class rdf:about="http://disk-project.org/ontology/neuro#BrainCharacteristic">
+        <rdfs:comment>A specific feature of an individuals brain, identified through MRI, EEG, or other methods of brain imaging.</rdfs:comment>
         <rdfs:label>Brain Characteristic</rdfs:label>
     </owl:Class>
     
@@ -136,7 +137,9 @@
 
     <!-- http://disk-project.org/ontology/neuro#Diagnosis -->
 
-    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Diagnosis"/>
+    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Diagnosis">
+        <rdfs:comment>An individual&apos;s medical diagnosis.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -148,7 +151,9 @@
 
     <!-- http://disk-project.org/ontology/neuro#Gene -->
 
-    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Gene"/>
+    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Gene">
+        <rdfs:comment>A unit of heredity that is transferred from a parent to offspring.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -170,7 +175,9 @@
 
     <!-- http://disk-project.org/ontology/neuro#Patient -->
 
-    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Patient"/>
+    <owl:Class rdf:about="http://disk-project.org/ontology/neuro#Patient">
+        <rdfs:comment>An individual participating in an ENIGMA cohort.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -185,6 +192,7 @@
     <!-- https://w3id.org/enigma#BrainScan -->
 
     <owl:Class rdf:about="https://w3id.org/enigma#BrainScan">
+        <rdfs:comment>An image of an individuals brain collected by ENIGMA.</rdfs:comment>
         <rdfs:label>Brain Scan</rdfs:label>
     </owl:Class>
     
@@ -212,6 +220,7 @@
 
     <owl:Class rdf:about="https://w3id.org/enigma#HippocampalVolume">
         <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
+        <rdfs:comment>The volume of the hippocampus.</rdfs:comment>
         <rdfs:label>Hippocampal Volume</rdfs:label>
     </owl:Class>
     
@@ -221,6 +230,7 @@
 
     <owl:Class rdf:about="https://w3id.org/enigma#SubstantiaNigraVolume">
         <rdfs:subClassOf rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
+        <rdfs:comment>The volume of the Substantia Nigra.</rdfs:comment>
         <rdfs:label>Substantia Nigra Volume</rdfs:label>
     </owl:Class>
     
