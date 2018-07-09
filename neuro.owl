@@ -114,7 +114,7 @@
     <owl:DatatypeProperty rdf:about="https://w3id.org/enigma#hasAge">
         <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:comment>Describes the sex of an individual of a cohort.</rdfs:comment>
+        <rdfs:comment>Describes the age of an individual of a cohort.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -124,7 +124,7 @@
     <owl:DatatypeProperty rdf:about="https://w3id.org/enigma#hasSex">
         <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>Describes the age of an individual of a cohort.</rdfs:comment>
+        <rdfs:comment>Describes the sex of an individual of a cohort.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
