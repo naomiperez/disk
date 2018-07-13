@@ -200,6 +200,7 @@
     <!-- https://w3id.org/disk/ontology/neuro/#BrainScan -->
 
     <owl:Class rdf:about="https://w3id.org/disk/ontology/neuro/#BrainScan">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/disk/ontology/neuro/#Data"/>
         <rdfs:comment xml:lang="en">An image of an individual&apos;s brain.</rdfs:comment>
         <rdfs:label xml:lang="en">Brain Scan</rdfs:label>
     </owl:Class>
@@ -238,6 +239,16 @@
     <owl:Class rdf:about="https://w3id.org/disk/ontology/neuro/#Gene">
         <rdfs:comment xml:lang="en">A unit of heredity that is transferred from a parent to offspring.</rdfs:comment>
         <rdfs:label xml:lang="en">Gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/disk/ontology/neuro/#GeneticData -->
+
+    <owl:Class rdf:about="https://w3id.org/disk/ontology/neuro/#GeneticData">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/disk/ontology/neuro/#Data"/>
+        <rdfs:label xml:lang="en">Data storing information about particpants genes.</rdfs:label>
+        <rdfs:label xml:lang="en">Genetic Data</rdfs:label>
     </owl:Class>
     
 
