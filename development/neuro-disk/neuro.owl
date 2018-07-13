@@ -8,7 +8,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://w3id.org/disk/ontology/neuro">
+    <owl:Ontology rdf:about="https://w3id.org/disk/ontology/neuro/">
         <owl:versionIRI rdf:resource="https://w3id.org/disk/ontology/neuro/1.0.0"/>
         <owl:versionInfo>v1.0.0</owl:versionInfo>
         <rdfs:comment>An ontology for describing terms used in the DISK Hypothesis Reasoner for a neuroscience domain.</rdfs:comment>
