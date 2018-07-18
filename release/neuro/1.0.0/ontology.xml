@@ -276,10 +276,10 @@
     
 
 
-    <!-- https://w3id.org/enigma#BrainScan -->
+    <!-- https://w3id.org/disk/ontology/neuro#BrainScan -->
 
 
-    <owl:Class rdf:about="https://w3id.org/enigma#BrainScan">
+    <owl:Class rdf:about="https://w3id.org/disk/ontology/neuro#BrainScan">
         <rdfs:comment xml:lang="en">An image of an individual&apos;s brain.</rdfs:comment>
         <rdfs:label xml:lang="en">Brain Scan</rdfs:label>
     </owl:Class>
@@ -298,10 +298,10 @@
     
 
 
-    <!-- https://w3id.org/enigma#APOE4 -->
+    <!-- https://w3id.org/disk/ontology/neuro#APOE4 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#APOE4">
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#APOE4">
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#Gene"/>
     </owl:NamedIndividual>
     
@@ -310,25 +310,25 @@
     <!-- https://w3id.org/enigma#HippocampalVoume -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#HippocampalVoume">
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#HippocampalVoume">
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#BrainCharacteristic"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/enigma#MajorDepression -->
+    <!-- https://w3id.org/disk/ontology/neuro#MajorDepression -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#MajorDepression">
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#MajorDepression">
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/enigma#Schizophrenia -->
+    <!-- https://w3id.org/disk/ontology/neuro#Schizophrenia -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/enigma#Schizophrenia">
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#Schizophrenia">
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
     </owl:NamedIndividual>
 </rdf:RDF>
