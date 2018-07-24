@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <uri id="Automatically generated entry, Timestamp=1532382659228" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
 =======
         <uri id="Automatically generated entry, Timestamp=1532377911063" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
@@ -17,5 +18,9 @@
         <uri id="Automatically generated entry, Timestamp=1531946775490" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
         <uri id="Automatically generated entry, Timestamp=1531946775490" name="http://disk-project.org/ontology/omics" uri="omicsOriginal.owl"/>
 >>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
+=======
+        <uri id="Automatically generated entry, Timestamp=1532377911063" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1532377911063" name="http://disk-project.org/ontology/omics" uri="omicsOriginal.owl"/>
+>>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
     </group>
 </catalog>
