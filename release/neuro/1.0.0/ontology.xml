@@ -128,18 +128,8 @@
 
     <!-- https://w3id.org/disk/ontology/neuro#collectedAt -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <owl:DatatypeProperty rdf:about="http://disk-project.org/ontology/neuro#collectedAt">
-        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#BrainScan"/>
-=======
     <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#collectedAt">
         <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#BrainScan"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-    <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#collectedAt">
-        <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#BrainScan"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">Describes when a Brain Scan was collected.</rdfs:comment>
         <rdfs:label xml:lang="en">collected at</rdfs:label>
@@ -149,18 +139,8 @@
 
     <!-- https://w3id.org/disk/ontology/neuro#diagnosedAt -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <owl:DatatypeProperty rdf:about="http://disk-project.org/ontology/neuro#diagnosedAt">
-        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Diagnosis"/>
-=======
     <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#diagnosedAt">
         <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Diagnosis"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-    <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#diagnosedAt">
-        <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Diagnosis"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">Describes when a Patient recieved a Diagnosis.</rdfs:comment>
         <rdfs:label xml:lang="en">diagnosed at</rdfs:label>
@@ -170,18 +150,8 @@
 
     <!-- https://w3id.org/disk/ontology/neuro#hasAge -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <owl:DatatypeProperty rdf:about="http://disk-project.org/ontology/neuro#hasAge">
-        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
-=======
     <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#hasAge">
         <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Patient"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-    <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#hasAge">
-        <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Patient"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">Describes the age of an individual of a cohort.</rdfs:comment>
         <rdfs:label xml:lang="en">has age</rdfs:label>
@@ -191,18 +161,8 @@
 
     <!-- https://w3id.org/disk/ontology/neuro#hasSex -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <owl:DatatypeProperty rdf:about="http://disk-project.org/ontology/neuro#hasSex">
-        <rdfs:domain rdf:resource="http://disk-project.org/ontology/neuro#Patient"/>
-=======
     <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#hasSex">
         <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Patient"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-    <owl:DatatypeProperty rdf:about="https://w3id.org/disk/ontology/neuro#hasSex">
-        <rdfs:domain rdf:resource="https://w3id.org/disk/ontology/neuro#Patient"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Describes the sex of an individual of a cohort.</rdfs:comment>
         <rdfs:label xml:lang="en">has sex</rdfs:label>
@@ -315,82 +275,34 @@
     
 
 
-    <!-- http://disk-project.org/ontology/neuro#APOE4 -->
+    <!-- https://w3id.org/disk/ontology/neuro#APOE4 -->
 
-<<<<<<< HEAD
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#APOE4">
-=======
     <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#APOE4">
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
-        <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#Gene"/>
-=======
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#Gene"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-        <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#Gene"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
     </owl:NamedIndividual>
     
 
 
-    <!-- http://disk-project.org/ontology/neuro#HippocampalVoume -->
+    <!-- https://w3id.org/disk/ontology/neuro#HippocampalVoume -->
 
-<<<<<<< HEAD
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#HippocampalVoume">
-=======
     <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#HippocampalVoume">
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
-        <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
-=======
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#BrainCharacteristic"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-        <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#BrainCharacteristic"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
     </owl:NamedIndividual>
     
 
 
-    <!-- http://disk-project.org/ontology/neuro#MajorDepression -->
+    <!-- https://w3id.org/disk/ontology/neuro#MajorDepression -->
 
-<<<<<<< HEAD
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#MajorDepression">
-=======
     <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#MajorDepression">
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
-        <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#NeurologicalDisorder"/>
-=======
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-        <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
     </owl:NamedIndividual>
     
 
 
-    <!-- http://disk-project.org/ontology/neuro#Schizophrenia -->
+    <!-- https://w3id.org/disk/ontology/neuro#Schizophrenia -->
 
-<<<<<<< HEAD
-    <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#Schizophrenia">
-=======
     <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#Schizophrenia">
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
-        <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#NeurologicalDisorder"/>
-=======
         <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
->>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
-=======
-        <rdf:type rdf:resource="https://w3id.org/disk/ontology/neuro#NeurologicalDisorder"/>
->>>>>>> parent of 65d924f... changed iri to http://disk-project.org/ontology/neuro
     </owl:NamedIndividual>
 </rdf:RDF>
 
