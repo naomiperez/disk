@@ -2,10 +2,15 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <uri id="Automatically generated entry, Timestamp=1532382659228" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
 =======
         <uri id="Automatically generated entry, Timestamp=1532377911063" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
         <uri id="Automatically generated entry, Timestamp=1532377911063" name="http://disk-project.org/ontology/omics" uri="omicsOriginal.owl"/>
 >>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
+=======
+        <uri id="Automatically generated entry, Timestamp=1531946775490" name="http://disk-project.org/ontology/neuro" uri="neuro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531946775490" name="http://disk-project.org/ontology/omics" uri="omicsOriginal.owl"/>
+>>>>>>> parent of fdfb570... changed iri to http://disk-project.org/ontology/neuro
     </group>
 </catalog>
