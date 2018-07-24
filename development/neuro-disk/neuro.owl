@@ -277,7 +277,11 @@
 
     <!-- http://disk-project.org/ontology/neuro#APOE4 -->
 
+<<<<<<< HEAD
     <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#APOE4">
+=======
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#APOE4">
+>>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
         <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#Gene"/>
     </owl:NamedIndividual>
     
@@ -285,7 +289,11 @@
 
     <!-- http://disk-project.org/ontology/neuro#HippocampalVoume -->
 
+<<<<<<< HEAD
     <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#HippocampalVoume">
+=======
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#HippocampalVoume">
+>>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
         <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#BrainCharacteristic"/>
     </owl:NamedIndividual>
     
@@ -293,7 +301,11 @@
 
     <!-- http://disk-project.org/ontology/neuro#MajorDepression -->
 
+<<<<<<< HEAD
     <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#MajorDepression">
+=======
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#MajorDepression">
+>>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
         <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#NeurologicalDisorder"/>
     </owl:NamedIndividual>
     
@@ -301,7 +313,11 @@
 
     <!-- http://disk-project.org/ontology/neuro#Schizophrenia -->
 
+<<<<<<< HEAD
     <owl:NamedIndividual rdf:about="http://disk-project.org/ontology/neuro#Schizophrenia">
+=======
+    <owl:NamedIndividual rdf:about="https://w3id.org/disk/ontology/neuro#Schizophrenia">
+>>>>>>> parent of 0134a8f... Revert "changed iri to http://disk-project.org/ontology/neuro"
         <rdf:type rdf:resource="http://disk-project.org/ontology/neuro#NeurologicalDisorder"/>
     </owl:NamedIndividual>
 </rdf:RDF>
